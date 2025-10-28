@@ -17,6 +17,14 @@ const b = arr[1];
 const c = arr[2];
 console.log(a, b, c);
 ```
+That works fine, but—
+
+-> It’s repetitive .
+
+-> It’s hard to read when arrays get bigger.
+
+-> It’s less clean when used in functions or loops.
+
 ### Example (Using Destructuring)
 ```js
 const [a, b, c] = [10, 20, 30];
